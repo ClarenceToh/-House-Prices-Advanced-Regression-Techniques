@@ -1,4 +1,5 @@
 # Description of Kaggle Competition
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/
 Predict sales prices and practice feature engineering, RFs, and gradient boosting
 
 # housing regression1.ipynb
