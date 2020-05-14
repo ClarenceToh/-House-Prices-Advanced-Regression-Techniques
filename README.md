@@ -32,7 +32,7 @@ Second, I did feature dimensionality reduction via Principal Component Analysis.
 Ultimately, after the first iteration, the socre was 0.15006, where I was ranked 2535 out of 4524 teams, which is not impressive.<br />
 This is the preliminary model. I will continue to work on the regression model to improve the score.<br />
 
-# housing regression1.ipynb
+# housing regression2.ipynb
 ### Objective
 To improve the compeition score in the second iteration.
 
