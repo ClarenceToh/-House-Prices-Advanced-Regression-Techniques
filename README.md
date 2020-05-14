@@ -31,3 +31,17 @@ First, I did minmax and standard scaling. None improved the score.<br />
 Second, I did feature dimensionality reduction via Principal Component Analysis. Still was not better.<br />
 Ultimately, after the first iteration, the socre was 0.15006, where I was ranked 2535 out of 4524 teams, which is not impressive.<br />
 This is the preliminary model. I will continue to work on the regression model to improve the score.<br />
+
+# housing regression1.ipynb
+### Objective
+To improve the compeition score in the second iteration.
+
+### Main Changes
+1. Having prepared the dataset to numerize all object type data and cleaning the rest of the integer type data, there was 1000 estimators involved. Hence, I tuned the parameter n_estimator of the best performing model, the RandomForstRegressor, to 1000. The score improved from 0.15 to 0.14.
+2. Next, I decided to try XGBoost again despite it not being the best in the first iteration. This time I tuned the n_estimator parameter to 1000 and the score drastically improved. The RMSLE reduced to 0.12980 in the competition which stands as the best score so far.
+3. I was still skeptical. I tuned and optimised the parameters, colsample_bytree, learning_rate, subsample and max_depth. It generated the best test score, but the competition score was not better than 0.12980
+
+### Next Step
+I will implement feature extraction/ feature importance to see what features are most important. The hypothesis is that not all factors affect the prices of houses the same, so identifying which estimators affect the target variable the most will be kept.
+
+Probably some neural networks will be implemented as well.
