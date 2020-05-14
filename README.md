@@ -42,6 +42,6 @@ To improve the compeition score in the second iteration.
 3. I was still skeptical. I tuned and optimised the parameters, colsample_bytree, learning_rate, subsample and max_depth. It generated the best test score, but the competition score was not better than 0.12980
 
 ### Next Step
-I will implement feature extraction/ feature importance to see what features are most important. The hypothesis is that not all factors affect the prices of houses the same, so identifying which estimators affect the target variable the most will be kept.
+I will implement feature extraction/ feature importance to see what features are most important. The hypothesis is that not all factors affect the prices of houses the same, so identifying which estimators affect the target variable the most will be kept while variables that are not that significant will be removed.
 
 Probably some neural networks will be implemented as well.
